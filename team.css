@@ -108,6 +108,15 @@ main {
     border-radius: 8px;
     flex-basis: 23%;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.team-member img {
+    width: 100px;
+    height: 177.78px;
+    border-radius: 5%;
+    object-fit: cover;
+    margin-bottom: 15px;
 }
 
 .team-member h3 {
