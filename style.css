@@ -10,11 +10,11 @@ header .logo a {
 }
 
 header .logo h1 {
-    color: #d8d0d0; /* Beige Text */
+    color: #ffffff; /* Beige Text */
 }
 
 body {
-    background-color: #eecaa9dc; /* Light beige background */
+    background-color: #ffffff; /* Light beige background */
     color: #000000;
     min-height: 100vh;
     padding-top: 80px; /* Offset for the fixed header */
