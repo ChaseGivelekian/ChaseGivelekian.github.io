@@ -276,7 +276,7 @@ main {
     margin: 0 auto;
 }
 
-.team-member {
+.team-member-box {
     background-color: #fff;
     padding: 20px;
     margin: 10px;
@@ -286,19 +286,19 @@ main {
     text-align: center;
 }
 
-.team-member img {
+.team-member-box img {
     width: 150px;
     height: 150px;
     border-radius: 50%;
     margin-bottom: 20px;
 }
 
-.team-member h3 {
+.team-member-box h3 {
     font-size: 1.5rem;
     margin-bottom: 10px;
 }
 
-.team-member p {
+.team-member-box p {
     font-size: 1rem;
     margin-bottom: 10px;
 }
