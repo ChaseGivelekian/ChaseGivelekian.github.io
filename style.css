@@ -186,55 +186,53 @@ nav ul li a {
 
 /* Main section styles */
 main {
-    flex: 1;
     padding: 20px;
-    background-color: #e0d5c0;
 }
 
-/* Team section styles */
-.team {
-    background-color: #e0d5c0;
-    padding: 20px;
+/* Talent section styles */
+.talent-section {
+    background-color: #f5f5f5;
+    padding: 40px 20px;
     border-radius: 10px;
     text-align: center;
 }
 
-.team h2 {
+.talent-section h2 {
     margin-bottom: 20px;
     font-size: 28px;
 }
 
-.team-container {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+/* Grid for two columns and two rows */
+.talent-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    margin-top: 20px;
 }
 
-.team-member {
+/* Talent box styling */
+.talent-box {
     background-color: #e0e0e0;
-    margin: 15px;
     padding: 20px;
     border-radius: 8px;
-    flex-basis: 23%;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     text-align: center;
 }
 
-.team-member img {
+.talent-box img {
     width: 100px;
     height: 177.78px;
-    border-radius: 5%;
+    border-radius: 10%;
     object-fit: cover;
     margin-bottom: 15px;
 }
 
-.team-member h3 {
+.talent-box h3 {
     font-size: 22px;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
-.team-member p {
-    margin: 10px 0;
+.talent-box p {
     font-size: 16px;
     color: #555;
 }
@@ -258,17 +256,17 @@ main {
     margin-bottom: 30px;
 }
 
-.team {
+.about-team {
     text-align: center;
     padding: 40px 20px;
 }
 
-.team h2 {
+.about-team h2 {
     font-size: 2rem;
     margin-bottom: 40px;
 }
 
-.team-members {
+.about-team-members {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -276,7 +274,7 @@ main {
     margin: 0 auto;
 }
 
-.team-member-box {
+.about-team-member-box {
     background-color: #fff;
     padding: 20px;
     margin: 10px;
@@ -286,19 +284,19 @@ main {
     text-align: center;
 }
 
-.team-member-box img {
+.about-team-member-box img {
     width: 150px;
     height: 150px;
     border-radius: 50%;
     margin-bottom: 20px;
 }
 
-.team-member-box h3 {
+.about-team-member-box h3 {
     font-size: 1.5rem;
     margin-bottom: 10px;
 }
 
-.team-member-box p {
+.about-team-member-box p {
     font-size: 1rem;
     margin-bottom: 10px;
 }
